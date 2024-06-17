@@ -1,0 +1,158 @@
+{
+	// editor
+	"editor.mouseWheelZoom": true,
+	"editor.wrappingIndent": "same",
+	"editor.wordWrapColumn": 80,
+	"editor.insertSpaces": false,
+	"editor.folding": false,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"explorer.confirmDelete": false,
+	"editor.suggestSelection": "first",
+	"editor.scrollBeyondLastLine": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.linkedEditing": true,
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+	"editor.renderControlCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.quickSuggestionsDelay": 0,
+	"html.completion.attributeDefaultValue": "singlequotes",
+	"mssql.objectExplorer.groupBySchema": true,
+	"git.openRepositoryInParentFolders": "never",
+	"window.zoomLevel": 0.3,
+	"git.autofetch": true,
+
+	// Appearance
+	"editor.glyphMargin": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"workbench.productIconTheme": "fluent-icons",
+	"window.density.editorTabHeight": "compact",
+	"window.commandCenter": false,
+	"workbench.activityBar.location": "top",
+	"workbench.iconTheme": "catppuccin-macchiato",
+
+	// Cursor
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+
+	// Font
+	"editor.fontSize": 18,
+	"editor.lineHeight": 24,
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "JetBrains Mono",
+
+	// Terminal
+	"terminal.integrated.fontFamily": "Iosevka",
+	"terminal.integrated.fontSize": 15,
+
+	// Explorer
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.startupEditor": "newUntitledFile",
+
+	// Emmet
+
+	"emmet.includeLanguages": {
+		"blade": "html",
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	},
+
+	// Formating
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlineSuggest.enabled": true,
+	"emmet.triggerExpansionOnTab": true,
+
+	// JS & TS
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+
+	// Spell checker
+	"cSpell.language": "en,ru",
+	"cSpell.userWords": ["Encryp", "продакшн"],
+	"cSpell.enabled": true,
+	"cSpell.enableFiletypes": [
+		"blade",
+		"jsx",
+		"tsx",
+		"ts",
+		"js",
+		"scss",
+		"sass",
+		"vue"
+	],
+	"editor.unicodeHighlight.allowedCharacters": {
+		"а": true,
+		"с": true,
+		"T": true,
+		"б": true,
+		"е": true
+	},
+	"editor.hideCursorInOverviewRuler": true,
+	"git.enableSmartCommit": true,
+
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/.idea": true,
+		"**/.fleet": true
+	},
+
+	// Other
+	"files.defaultLanguage": "plaintext",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"window.confirmBeforeClose": "keyboardOnly",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"apc.imports": [],
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": "off"
+	},
+	"git.confirmSync": false,
+	"workbench.colorTheme": "Jetbrains Fleet",
+	"discord.detailsIdling": "Reading the documentation",
+	"files.autoSave": "onFocusChange",
+	"vscord.status.problems.text": "",
+	"vscord.status.details.text.editing": "Project: {workspace}",
+	"vscord.status.details.text.viewing": "In {workspace}",
+	"todohighlight.isEnable": true,
+	"terminal.integrated.allowedLinkSchemes": [
+		"file",
+		"http",
+		"https",
+		"mailto",
+		"vscode",
+		"vscode-insiders",
+		"docker-desktop"
+	]
+}
