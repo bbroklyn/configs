@@ -43,7 +43,7 @@
 	"editor.fontSize": 18,
 	"editor.lineHeight": 24,
 	"editor.fontLigatures": true,
-	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontFamily": "Fira Code",
 
 	// Terminal
 	"terminal.integrated.fontFamily": "Iosevka",
@@ -121,6 +121,9 @@
 	},
 
 	// Other
+	"disable-hardware-acceleration": true,
+	"window.titleBarStyle": "custom",
+	"window.zoomLevel": 0.7,
 	"files.defaultLanguage": "plaintext",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"security.workspace.trust.untrustedFiles": "open",
@@ -154,5 +157,22 @@
 		"vscode",
 		"vscode-insiders",
 		"docker-desktop"
-	]
+	],
+	"githubIssues.queries": [
+		{
+			"label": "My Issues",
+			"query": "is:open assignee:${user} repo:${owner}/${repository}",
+			"groupBy": ["milestone"]
+		},
+		{
+			"label": "Created Issues",
+			"query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+		},
+		{
+			"label": "Recent Issues",
+			"query": "state:open repo:${owner}/${repository} sort:updated-desc"
+		}
+	],
+	"workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+	"editor.fontWeight": "600"
 }
