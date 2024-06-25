@@ -21,7 +21,6 @@
 	"html.completion.attributeDefaultValue": "singlequotes",
 	"mssql.objectExplorer.groupBySchema": true,
 	"git.openRepositoryInParentFolders": "never",
-	"window.zoomLevel": 0.3,
 	"git.autofetch": true,
 
 	// Appearance
@@ -123,7 +122,7 @@
 	// Other
 	"disable-hardware-acceleration": true,
 	"window.titleBarStyle": "custom",
-	"window.zoomLevel": 0.7,
+	"window.zoomLevel": 0.8,
 	"files.defaultLanguage": "plaintext",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"security.workspace.trust.untrustedFiles": "open",
